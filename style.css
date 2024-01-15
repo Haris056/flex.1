@@ -1,0 +1,102 @@
+.parent{
+    min-height: 300px;
+    max-width: 600px;
+    margin: 180px auto;
+    /* border: 5px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgb(247, 62, 33);
+}
+ 
+.box{
+    height: 98px;
+    width: 98px;
+    border: 1px solid yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+nav{
+    height: 50px;
+    /* width: 40px; */
+    background-color: rgba(255, 163, 14, 0.581);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border: 60px;
+
+}
+.logo{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+.logo:hover{
+    color:rgb(255, 158, 3);
+    text-decoration: underline;
+    
+}
+
+.nav_item{
+    cursor: pointer;
+    color: coral;
+}
+
+
+.food{
+    font-size: 30px;
+    margin: 0px 10px;
+    font-weight: 300;
+}
+.food:hover{
+    color:rgb(254, 254, 18);
+    text-decoration: underline;
+    
+}
+
+.xx{
+    font-size: 30px;
+}
+
+
+.nav_items{
+    color: aqua;
+    display: flex;
+}
+.child1{
+    /* display: inline-block; */
+    /* width: auto;     */
+    height:100px;
+    color: rgb(255, 178, 126);
+    /* background-image: url(13.jpeg); */
+    
+
+}
+.child1:hover{
+    color: crimson;
+}
